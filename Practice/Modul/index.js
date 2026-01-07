@@ -1,2 +1,7 @@
-let a= 5;
-console.log(a);
+export function add(a, b) {
+  return a + b;
+}
+
+export function subtract(a, b) {
+  return a - b;
+}
